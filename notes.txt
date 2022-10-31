@@ -1,0 +1,43 @@
+onContextMenu
+onContextMenu is triggered when the context menu should appear.
+
+On a desktop, we can show the context menu by inputting a RIGHT CLICK or CTRL + LEFT CLICK.
+
+On a mobile device, we can display that menu by pressing down for some time.
+
+
+onDoubleClick
+onDoubleClick is triggered when we double click/tap on the same object.
+
+The delay between the first and second click/tap is defined by the OS.
+
+onPointerUp
+onPointerUp is triggered when we release the click (left or right) or touch.
+
+onPointerDown
+onPointerDown is triggered when we’ve just clicked or put our finger down.
+
+
+onPointerOver and onPointerEnter
+onPointerOver and onPointerEnter work exactly the same way.
+
+The event is triggered when the cursor or finger just went above the object.
+
+In native JavaScript, the mouseover event is slightly different than the mouseenter because it keeps triggering the event while the cursor enters children of the element being tested.
+
+(we will talk about elements inside elements in R3F later).
+
+
+onPointerOut and onPointerLeave
+onPointerOut and onPointerLeave work exactly the same way.
+
+The event is triggered when the cursor or finger just went out from the object.
+
+
+onPointerMove
+onPointerMove is triggered with each frame if the cursor has moved since the last frame, while above the object.
+
+
+onPointerMissed
+onPointerMissed will let you know if the user clicks outside of the object.
+
